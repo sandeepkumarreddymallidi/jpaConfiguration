@@ -11,6 +11,7 @@ public class Department {
     @OneToOne
     private Employee employee;
     public Employee getEmployee() {
+        System.out.println("sandeep");
         return employee;
     }
 
